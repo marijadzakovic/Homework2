@@ -13,9 +13,10 @@
 }
 
 .header-holder3 {
-    font-family: 'Passions Conflict', cursive;
-    font-size: 50px;
+    font-family: 'reey-regular', cursive;
+    font-size: 2.5vw;
     text-align: center;
+    margin-bottom: 0.5em;
 }
 
 .block {

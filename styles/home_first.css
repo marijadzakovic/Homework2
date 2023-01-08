@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Red+Hat+Display:wght@300&display=swap');
+ 
+@font-face{
+    font-family: reey-regular;
+    src:url(../reey/Reey-Regular.otf) format("opentype");
+}
 * {
     box-sizing: border-box;
     margin:0
@@ -80,8 +85,8 @@ a {
 }
 
 #italian-food {
-    font-family:  'Passions Conflict', cursive;
-    font-size: 7rem;
+    font-family: 'reey-regular', cursive;
+    font-size: 5vw;
     margin-top: 0;
     margin-left: 6vw;
     margin-top: 2vh;

@@ -14,9 +14,10 @@
 }
 
 #header-holder h1 {
-    font-family:  'Passions Conflict', cursive;
-    font-size: 7vw;
+    font-family:  'reey-regular', cursive;
+    font-size: 3.5vw;
     font-weight: 600;
+    margin-bottom: 0.3em;
 }
 #second p {
     color: #2F3135;

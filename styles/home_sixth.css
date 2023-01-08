@@ -1,0 +1,67 @@
+
+#sixth{
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#block-holder{
+    display: flex;
+    width:80%;
+    margin: auto;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+.header-holder3 {
+    font-family: 'Passions Conflict', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.block {
+    width: 30%;
+    
+}
+
+.content3 p{
+    font-size: 1rem;
+    color: #333D42;
+}
+#centered-div {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 130px;
+    max-width: 50%;
+    margin: auto;
+}
+
+#smaller {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 60px ;
+}
+
+
+@media (max-width:992px) {
+    #block-holder{
+        justify-content: space-around;
+    }
+}
+
+@media (max-width:768px){
+    #sixth{
+        height: fit-content;
+    }
+    #block-holder{
+        width: 100%;
+        display: block;
+        padding-top: 2em;
+    }
+    .block{
+        width: 60%;
+        margin: auto;
+    }
+    #centered-div{
+        padding-top: 3em;
+    }
+}

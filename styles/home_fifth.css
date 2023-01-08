@@ -1,0 +1,82 @@
+
+#fifth {
+    background-image: url(../images/background.png);
+    height: 100vh;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+#leaves2{
+    position: absolute;
+    bottom: 30vh;
+    width:100%;
+    height: auto;
+    z-index: 1;
+}
+
+#header-holder2 {
+    font-family: 'Passions Conflict', cursive;
+    color: white;
+    text-align: center;
+    font-size: 5.5vw;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    align-content: center;
+    
+}
+
+.centered {
+    text-align: center;
+    font-size: 1rem;
+    width:60%;
+    margin:auto
+}
+
+hr {
+    background-color: beige;
+    height: 8px;
+    width:100px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#pizza {
+    width: 40%;
+    position: relative;
+    top:2vh;
+    left: 42vw;
+}
+
+#pizza-slice{
+    position: relative;
+    right: 3vw;
+    width: 20%;
+}
+
+@media (min-width:992px){
+    #pizza {
+        width: 380px;
+        height: auto;
+    }
+    #pizza-slice{
+        top:2vh;
+        right: -3vw;
+        width:200px;
+        height: auto;
+    }
+}
+
+@media (max-width:600px){
+    #header-holder2{
+        font-size: 7vw;
+    }
+    .centered{
+        padding: 0em 3em;
+    }
+    #pizza{
+        top: 15vh;
+    }
+    #pizza-slice{
+        top:15vh
+    }
+}

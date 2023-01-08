@@ -1,0 +1,54 @@
+
+#fourth {
+    height: fit-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(46, 44, 44);
+}
+.fourth-content-container {
+    max-width: 90%;
+    margin:auto;
+    height: 100%;
+    
+}
+
+.dish {
+    height:50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+.image-container img{
+    max-width: 350px;
+    height: auto;   
+}
+.description {
+    width: 40%
+}
+.description h2 {
+    font-size: 2em;
+    padding:1.5em 2em 0.5em 1em;
+}
+
+.description p{
+    font-size: 1rem;
+    margin: 0em 2em 1em 2em 
+}
+
+#reverse .description {
+    order: 1;
+}
+#reverse .image-container{
+    order: 2;
+}
+
+.description button {
+    background-color: rgb(46, 44, 44); 
+    color: white;
+    padding: 0.8em 2em;
+    font-weight: 600;
+    margin-left: 2em;
+    margin-bottom: 1rem;
+}
+
